@@ -1,27 +1,21 @@
 ---
 name: tife-create-thread
-description: "Start a work record for a feature, fix, investigation, or planning task. Use when starting a thread or new substantial feature work; reuse an active thread for the same work. This creates project documents, not an application chat."
+description: "Start or resume a project work record for a feature, fix, investigation, or planning task. Use when starting work; checkpoint existing progress with update-thread. Creates a document, not an app chat."
 ---
 
 # Create Thread
 
-Read the shared workflow before acting. Read the other references relevant to the operation.
+Read [workflow](references/workflow.md) for discovery and shared writing rules, then the
+**Thread** outline in [documents](references/documents.md).
 
-- [Workflow](references/workflow.md)
-- [Documents](references/documents.md)
-- [Testing](references/testing.md)
+1. Identify the goal, stage, scope, constraints, and completion criteria. Reuse the active thread
+   for the same work; otherwise create one with a stable work ID and an initial next step.
+2. Link existing context or create missing context from established facts, using the matching
+   outline in [documents](references/documents.md). For a codebase baseline, inspect the relevant
+   boundary and distinguish observed implementation from agreed requirements.
+3. For substantive feature work with known acceptance criteria, read [testing](references/testing.md)
+   and establish or link its test document. Discussion-only work needs no invented scenarios.
 
-Establish one durable work record for the requested line of work.
-
-1. Discover existing records using the shared workflow. Identify the user's goal and current
-   stage: discussion, implementation, or investigation. Reuse an active thread for the same work.
-2. If creating, choose a stable work ID and write the thread outline with the real request,
-   constraints, completion criteria, known state, and first next step. Don't infer permission
-   to implement from permission to document or plan.
-3. Link the relevant feature context and technical context. Create missing context from facts
-   already established, using the context outline. For an existing codebase, inspect enough source
-   to identify the boundary; label observations separately from intended requirements.
-4. For substantive feature work, establish or link a test document using known acceptance criteria.
-   Unknown expected behavior remains a question. Planning-only threads need no invented tests.
-5. Check links and report the thread path and any blocking questions. Creating a new app chat,
-   branch, or worktree is not part of this skill.
+**Done when:** the work has one authoritative active thread, relevant documents are linked, and
+its goal, limits, current state, and next step are readable without this conversation. Report the
+saved path and blocking questions. This operation creates no app chat, branch, or worktree.

@@ -1,28 +1,23 @@
 ---
 name: tife-update-thread
-description: "Save ongoing work state, decisions, failed attempts, blockers, and remaining tasks. Use for checkpoint, save progress, update thread, or meaningful milestones in active feature work. For a context reset also use prepare next session."
+description: "Checkpoint ongoing work at a meaningful milestone: progress, decisions, failed attempts, blockers, and next steps. Use prepare-next-session when saving for a fresh chat or context reset."
 ---
 
 # Update Thread
 
-Read the shared workflow before acting. Read the other references relevant to the operation.
+Read [workflow](references/workflow.md) and the **Thread** outline in
+[documents](references/documents.md).
 
-- [Workflow](references/workflow.md)
-- [Documents](references/documents.md)
-- [Testing](references/testing.md)
+1. Reuse this work's active thread or create one if missing. Reconcile Current state, Remaining,
+   and In-flight using the conversation and available evidence; flag unverified volatile state.
+2. Preserve decisions and reasons, user corrections, failed attempts, and useful retry conditions.
+   Separate requested work, necessary supporting work, and optional suggestions.
+3. Save settled feature knowledge into existing or newly created context using the matching
+   document outline. Keep current tasks in Remaining; route unfinished work outside this thread's
+   scope using the **Open issue** format in the document reference.
+4. When recording test outcomes, read [testing](references/testing.md), update the test document,
+   and link it from the thread.
 
-Checkpoint the current work without closing it.
-
-1. Find its active thread. Create one from the shared outline if missing; do not duplicate the
-   same work because this is a different chat. For distinct concurrent workstreams, use separate records.
-2. Reconcile Current state, Remaining, and In-flight from the latest conversation and available
-   evidence. Verify important volatile details when possible; mark unverified state explicitly.
-3. Preserve decisions and their reasons, user corrections, failed approaches, observed results,
-   and useful retry conditions. Separate optional ideas from requested or necessary work.
-4. Save settled feature knowledge to existing context or create missing context using the shared
-   outlines. Follow the tife-update-context workflow if that skill is installed; these bundled
-   references also contain the necessary rules. Do not leave durable decisions only in chat.
-5. Record actual test outcomes in the test document and link it. Route out-of-scope unfinished
-   work that must persist to the local tracker; leave current tasks in Remaining.
-6. Keep the thread open, refresh its timestamp, and check a fresh reader can identify the goal,
-   stopping point, next action, and constraints. Report the saved record. Do not archive or commit.
+**Done when:** the thread remains open and a new reader can identify the goal, current stopping
+point, next action, constraints, and pending work. Report the saved path. A checkpoint requires
+no commit; follow any separate Git authorization in the user's request.

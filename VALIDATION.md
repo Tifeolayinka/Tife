@@ -27,3 +27,18 @@ folder-copy installation was tested locally.
 
 Manual behavioral cases are in [evals/scenarios.md](evals/scenarios.md). Follow those before calling
 this a behaviorally verified stable release. Validation did not install into a live agent host. The collection is published separately.
+
+## Instruction refinement — 2026-10-24
+
+All nine entrypoints now specify reference-loading conditions and observable completion criteria.
+Duplicated preparation, review, and closing procedures delegate to their bundled source references.
+Names, document formats, installation behavior, and invocation policy are unchanged.
+
+A source-level comparison checked preservation of: automatic creation of missing context and
+threads; one active record per workstream; planning-only continuation; short prompts with actual
+thread paths; decisions and failed attempts; requirement-linked tests and evidence; Needs recheck
+for stale results; read-only reviews; document-only teammate handoffs; and saving/routing before
+archive. This is an instruction review, not a live-model behavioral test.
+
+Revalidation passed all nine Skill Creator checks, bundled-reference parity, collection packaging,
+seven installer tests, and Git whitespace checks. The live-host limitations above still apply.
