@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Thread"
+  short_description: "Checkpoint progress, decisions, and next steps"
+  default_prompt: "Use $tife-update-thread to checkpoint progress, decisions, and next steps."

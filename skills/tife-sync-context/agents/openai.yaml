@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Context"
+  short_description: "Compare feature documentation with actual code"
+  default_prompt: "Use $tife-sync-context to compare feature documentation with actual code."

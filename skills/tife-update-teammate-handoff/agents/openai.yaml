@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Teammate Handoff"
+  short_description: "Maintain linked tasks and questions for a teammate"
+  default_prompt: "Use $tife-update-teammate-handoff to maintain linked tasks and questions for a teammate."

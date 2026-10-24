@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Context"
+  short_description: "Create or update durable feature documentation"
+  default_prompt: "Use $tife-update-context to create or update durable feature documentation."

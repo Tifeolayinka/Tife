@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Next Session"
+  short_description: "Save context and return a short continuation prompt"
+  default_prompt: "Use $tife-prepare-next-session to save context and return a short continuation prompt."

@@ -1,0 +1,50 @@
+{
+  "tife-create-thread": [
+    "workflow.md",
+    "documents.md",
+    "testing.md"
+  ],
+  "tife-update-context": [
+    "workflow.md",
+    "documents.md",
+    "testing.md"
+  ],
+  "tife-update-thread": [
+    "workflow.md",
+    "documents.md",
+    "testing.md"
+  ],
+  "tife-maintain-tests": [
+    "workflow.md",
+    "testing.md",
+    "documents.md"
+  ],
+  "tife-prepare-next-session": [
+    "workflow.md",
+    "documents.md",
+    "testing.md",
+    "handoff.md"
+  ],
+  "tife-sync-context": [
+    "workflow.md",
+    "documents.md",
+    "testing.md",
+    "review.md"
+  ],
+  "tife-audit-context": [
+    "workflow.md",
+    "documents.md",
+    "testing.md",
+    "review.md"
+  ],
+  "tife-update-teammate-handoff": [
+    "workflow.md",
+    "documents.md"
+  ],
+  "tife-end-thread": [
+    "workflow.md",
+    "documents.md",
+    "testing.md",
+    "closing.md"
+  ]
+}

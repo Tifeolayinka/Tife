@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Context"
+  short_description: "Find gaps and contradictions across project documents"
+  default_prompt: "Use $tife-audit-context to find gaps and contradictions across project documents."

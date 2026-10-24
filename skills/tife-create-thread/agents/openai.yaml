@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Thread"
+  short_description: "Start or resume a durable feature work record"
+  default_prompt: "Use $tife-create-thread to start or resume a durable feature work record."

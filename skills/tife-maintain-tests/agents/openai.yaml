@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Tests"
+  short_description: "Plan feature tests and record verified results"
+  default_prompt: "Use $tife-maintain-tests to plan feature tests and record verified results."

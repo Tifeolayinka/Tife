@@ -1,0 +1,4 @@
+interface:
+  display_name: "End Thread"
+  short_description: "Close work after preserving context and unfinished items"
+  default_prompt: "Use $tife-end-thread to close work after preserving context and unfinished items."
