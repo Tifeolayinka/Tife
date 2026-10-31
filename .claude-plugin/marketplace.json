@@ -1,0 +1,12 @@
+{
+  "name": "tife",
+  "owner": { "name": "Tife Olayinka", "url": "https://github.com/Tifeolayinka" },
+  "description": "Development skills for feature context, durable threads, test records, and session handoffs.",
+  "plugins": [
+    {
+      "name": "tife",
+      "source": "./",
+      "description": "Feature context, durable work threads, test records, and short session handoffs."
+    }
+  ]
+}

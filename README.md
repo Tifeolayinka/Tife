@@ -23,6 +23,19 @@ No hooks, background services, or external accounts are required.
 | `tife-update-teammate-handoff` | Maintain a person's linked task and question document |
 | `tife-end-thread` | Save durable knowledge, route unfinished items, and archive work |
 
+## Install as a Claude Code plugin
+
+In Claude Code, add this repository as a plugin marketplace, then install the plugin:
+
+```text
+/plugin marketplace add Tifeolayinka/Tife
+/plugin install tife@tife
+```
+
+Start a fresh session afterwards so the skills load. To update later, run
+`/plugin marketplace update tife`. Use either the plugin or the local folder install below, not
+both.
+
 ## Install locally
 
 Requires Python 3.9 or later for the helper scripts; using the skill instructions themselves
@@ -48,8 +61,7 @@ before replacing them. Reload skill discovery or start a fresh session as your h
 Install the complete collection for the full workflow. An individual folder is also self-contained
 and can be copied manually; its references explain supporting document operations without requiring
 the other skills. Do not install both the plugin and loose skill folders in the same host, as that
-can create duplicate entries. `.claude-plugin/plugin.json` is included for plugin packaging; the
-folder-copy installer is the documented local installation path.
+can create duplicate entries.
 
 ## Use
 
